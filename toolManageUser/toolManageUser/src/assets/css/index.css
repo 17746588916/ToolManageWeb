@@ -1,0 +1,316 @@
+.carouselBox h3{
+    position: absolute;
+    left: 10%;
+    top: 50px;
+    font-weight: normal;
+    font-size: 41px;
+    color: #FFFFFF;
+	line-height: 50px;
+	width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+   }
+   .carouselBox p{
+	position: absolute;
+    left: 10%;
+    top: 110px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 24px;
+	width: 80%;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+   }
+   .layout{
+	position: relative;
+	cursor: pointer;
+   }
+   
+   .layout h1{
+	position: absolute;
+	top: 46px;
+	left: 32px;
+	font-size: 32px;
+	color: #FFFFFF;
+	line-height: 48px;
+	font-weight: normal;
+   }
+
+   .layout h1::after{
+	position: absolute;
+	content: '';
+	display: inline-block;
+	width: 40px;
+	height: 2px;
+	background: #fff;
+	bottom: -5px;
+	left: 0;
+   }
+   .layout p{
+	position: absolute;
+	top: 108px;
+	left: 32px;
+	font-size: 16px;
+	color: rgba(255,255,255,0.80);
+	line-height: 24px;
+   }
+
+.index-container{
+	width:1200px;
+	padding-bottom: 25px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.container-line{
+	width:100%;
+	margin-top:20px;
+}
+.container-left{
+	width:940px;
+	float: left;
+	overflow: hidden;
+	margin-right:20px;
+	position: relative;
+	z-index: 1;
+	top:0;
+	right:0;
+}
+.container-right{
+	width:240px;
+	float: left;
+	position: relative;
+	z-index: 1;
+	top:0;
+	right:0;
+}
+.index-login{
+	width:240px;
+	height:248px;
+	background: #ffffff;
+	text-align: center;
+}
+.login-img{
+	width:40px;
+	height:40px;
+	margin: 0 auto;
+	padding-top:40px;
+}
+.login-text{
+	font-size:14px;
+	text-align: center;
+	color: #333333;
+	padding-top:12px;
+}
+.logout-btn{
+    width: 94px;
+    /* height: 34px; */
+    /* margin: 0 auto; */
+    /* line-height: 34px; */
+    /* text-align: center; */
+    /* border: 1px solid #2B93EA; */
+    margin-top: 12px;
+    font-size: 14px;
+    color: #2B93EA;
+}
+.login-btn{
+    /* height: 34px; */
+    /* width: 96px; */
+    /* margin: 0 auto; */
+    /* line-height: 34px; */
+    /* text-align: center; */
+    /* font-size: 14px; */
+    color: #ffffff;
+    background: #2970FE;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(20%, #2B93EA),color-stop(80%, #2970FE));
+    background-image: linear-gradient(90deg, #2B93EA 20%,#2970FE 80%);
+    margin-top: 12px;
+}
+.con-box{
+	float: left;
+}
+.con-box1{
+	margin-right:20px;
+}
+.con-box3{
+	margin-left:20px;
+}
+.index-notice{
+	background: #ffffff;
+	height:220px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	top:0;
+	left: 0;
+}
+.index-notice-tit{
+	height:24px;
+	line-height: 24px;
+	color: #333333;
+	font-size:16px;
+	padding:12px 0px 0px 22px;
+	background: url(../img/bq_20_01.png) no-repeat 8px 12px;
+}
+.index-notice-div{
+	padding:10px 20px 0px 20px;
+}
+.index-notice-ul li{
+	height: 28px;
+	line-height: 28px;
+	color: #666666;
+	font-size: 14px;
+	margin: 10px 0px 10px 0px;
+	width: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.container-box{
+	width:590px;
+	float:Left;
+	background: #ffffff;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.container-box-tit{
+	width:590px;
+	height: 60px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	top:0;
+	left:0;
+}
+.container-box-tit .tit{
+	color: #333333;
+	font-size: 20px;
+	height:50px;
+	line-height: 50px;
+}
+.container-box-tit .tit .tit-img {
+    height: 50px;
+    display: block;
+    width: 50px;
+    float: left;
+    position: relative;
+}
+.container-box-tit .tit .tit-img img{
+	top: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    left: 0;
+	right: 0;
+}
+.tit-tag{
+	position: absolute;
+	z-index: 1;
+	top:18px;
+	left:175px;
+}
+.tit-tag-ul li{
+	height:18px;
+	line-height: 18px;
+	padding:0px 5px 0px 5px;
+	font-size:12px;
+	overflow: hidden;
+	border:1px solid #BABAE3;
+	border-radius: 2px;
+	float: left;
+	color: #BABAE3;
+	margin-right:8px;
+	cursor: pointer;
+}
+.tit-more{
+	position: absolute;
+	z-index: 1;
+	top:20px;
+	right:5px;
+	width: 50px;
+	background: url(../img/icon_32_jr.png) no-repeat right center;
+	font-size: 14px;
+	color: #666666;
+}
+.container-box-list{
+	margin:0 10px;
+}
+.container-box-list-ul li{
+	width:170px;
+	overflow: hidden;
+	float: left;
+	margin-right:10px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.container-box-list-ul li .pic{
+	width:170px;
+	height:120px;
+}
+.container-box-list-ul li .tit{
+	width:170px;
+	height:40px;
+	padding-top:4px;
+	color: #333333;
+	font-size:14px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-line-clamp:2;    /*定义的数字为显示的行数*/
+	-webkit-box-orient:vertical;
+}
+.container-box-right{
+	margin:0px 0px 0px 20px;
+}
+
+
+
+
+
+.noticeBoxDialog{
+/* 登录框 */
+	background: rgba(255,255,255,.85) !important;
+	box-shadow: 0 2px 30px rgba(255, 255, 255, 0.15);
+	box-shadow: inset 0 0px 30px rgba(39, 39, 39, 0.24);
+	width: 420px;
+	border: 1px solid rgba(179, 179, 179, 0.932);
+	border-radius: 10px !important;
+	}
+	.login-container {
+		padding: 0 35px;
+	}
+	.login-container .title {
+		margin: 0px auto 40px auto;
+		text-align: center;
+		color: #505458;
+	}
+	.login-container .remember {
+		margin: 0px 0px 35px 0px;
+	}
+  /* 登录框头部 */
+  .login-header h1{
+	display: block;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	color: #20a0ff;
+	overflow: hidden;
+	line-height: 30px;
+	height: 30px;
+  }
+  /* 登录框尾部 */
+  .login-button-box{
+	margin-top: 12px;
+	width: 100%;
+  }
+  
+  .login-button-box button{
+	width: 100%;
+	font-size: 16px;
+	margin: 18px auto;
+	border-radius: 4px;
+	}
+	
